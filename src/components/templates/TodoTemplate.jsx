@@ -3,7 +3,7 @@ import { AddTodo, TodoList } from "../organisms/index.js";
 import styles from "./style.module.css";
 import { useTodo } from "../../hooks/useTodo.js";
 import React from "react";
-import { useTodoContext } from "../../../hooks/useTodoContext";
+import { useTodoContext } from "../../hooks/useTodoContext";
 
 export const TodoTemplate = () => {
 

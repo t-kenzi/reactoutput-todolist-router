@@ -4,7 +4,15 @@ import { useTodo } from "../hooks/useTodo.js";
 /**
  * TodoContext
  */
-const TodoContext = createContext({});
+const TodoContext = createContext({
+  addInputValue: "",
+  searchKeyword: "",
+  showTodoList: [],                
+  onChangeAddInputValue: () => {},
+  handleAddTodo: () => {},
+  handleDeleteTodo: () => {},
+  handleChangeSearchKeyword: () => {},
+});
 
 // TodoContextをエクスポート
 export { TodoContext };
